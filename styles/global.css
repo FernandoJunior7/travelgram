@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --bg-color: #fff;
+  --surface-color: #f5f5f5;
+  --skeleton-color: #d9d9d9;
+  --shape-transparency: #ffffff8f;
+  --text-primary: #313131;
+  --text-secondary: #6c6c6c;
+  --brand-color: #ef5f4c;
+
+  --ff-sanserif: 'Poppins', system-ui, sans-serif;
+
+  -fz-sm: 0.75rem;
+  --fs-md: 0.875rem;
+  --fs-base: 1rem;
+  --fs-h1: 2rem;
+
+  --lh-base: 1.5;
+  --lh-paragraph: 1.7;
+  --lh-h1: 1.25;
+
+  --fw-base: 400;
+  --fw-h1: 700;
+}
+
+html {
+  font-size: var(--fs-base);
+  font-family: var(--ff-sanserif);
+  line-height: var(--lh-base);
+  font-weight: var(--fw-base);
+  color: var(--text-primary);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-h1);
+  line-height: var(--lh-h1);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul[role='list'] {
+  list-style: none;
+}
