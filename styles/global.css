@@ -49,6 +49,16 @@ body {
   background-color: var(--bg-color);
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+
+  max-width: 1216px;
+  margin: 0 auto;
+}
+
 h1 {
   font-size: var(--fs-h1);
   font-weight: var(--fw-h1);
