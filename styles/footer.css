@@ -1,0 +1,12 @@
+footer .container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+
+  & .legal-terms {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+}

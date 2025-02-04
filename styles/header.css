@@ -28,11 +28,6 @@ nav {
     mask-image: url('../assets/icons/MagnifyingGlass.svg');
   }
 
-  & ul a:hover {
-    color: var(--brand-color);
-    text-decoration: underline;
-  }
-
   & ul a:hover .svg-icon {
     background-color: var(--brand-color);
   }

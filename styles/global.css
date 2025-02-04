@@ -84,6 +84,12 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 ul[role='list'] {
   list-style: none;
 }
