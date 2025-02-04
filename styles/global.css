@@ -89,4 +89,5 @@ ul[role='list'] {
 
 img {
   display: block;
+  max-width: 100%;
 }
