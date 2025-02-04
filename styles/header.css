@@ -6,6 +6,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   & ul {
     display: flex;
@@ -27,7 +28,7 @@ nav {
     mask-image: url('../assets/icons/MagnifyingGlass.svg');
   }
 
-  & ul a:hover { 
+  & ul a:hover {
     color: var(--brand-color);
     text-decoration: underline;
   }
@@ -59,8 +60,6 @@ nav {
 
   & #description {
     margin-top: 0.5rem;
-    font-size: var(--fs-md);
-    line-height: var(-lh-paragraph);
     color: var(--text-secondary);
   }
 }
@@ -75,8 +74,6 @@ nav {
     align-items: center;
     gap: 0.5rem;
 
-    font-size: var(--fs-md);
-    line-height: var(-lh-paragraph);
     color: var(--text-secondary);
   }
 }

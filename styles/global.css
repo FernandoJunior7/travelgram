@@ -24,7 +24,7 @@
 
   --ff-sanserif: 'Poppins', system-ui, sans-serif;
 
-  -fz-sm: 0.75rem;
+  --fs-sm: 0.75rem;
   --fs-md: 0.875rem;
   --fs-base: 1rem;
   --fs-h1: 2rem;
@@ -59,6 +59,19 @@ body {
   margin: 0 auto;
 }
 
+.paragraph {
+  font-weight: var(--fw-base);
+  line-height: var(--lh-paragraph);
+}
+
+.md {
+  font-size: var(--fs-md);
+}
+
+.sm {
+  font-size: var(--fs-sm);
+}
+
 h1 {
   font-size: var(--fs-h1);
   font-weight: var(--fw-h1);
@@ -72,4 +85,8 @@ a {
 
 ul[role='list'] {
   list-style: none;
+}
+
+img {
+  display: block;
 }
