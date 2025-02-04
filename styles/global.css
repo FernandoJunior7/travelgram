@@ -62,6 +62,7 @@ body {
 .paragraph {
   font-weight: var(--fw-base);
   line-height: var(--lh-paragraph);
+  color: var(--text-secondary);
 }
 
 .md {

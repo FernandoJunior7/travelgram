@@ -1,0 +1,11 @@
+.image-grid {
+  padding: 1.5rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 286px);
+  gap: 1.5rem;
+
+  & img {
+    aspect-ratio: 1/1;
+  }
+}
